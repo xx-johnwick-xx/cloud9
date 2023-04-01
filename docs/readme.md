@@ -1,3 +1,5 @@
+cloud9 / [Exports](modules.md)
+
 # Update December 12, 2022 <!-- omit in toc -->
 
 Yesterday, OpenAI added additional Cloudflare protections that make it more difficult to access the unofficial API.
@@ -31,7 +33,7 @@ Travis
   - [Docs](#docs)
   - [Demos](#demos)
   - [Authentication](#authentication)
-  - [Restrictions](#restrictions)
+    - [Restrictions](#restrictions)
 - [Projects](#projects)
 - [Compatibility](#compatibility)
 - [Credits](#credits)
@@ -189,9 +191,9 @@ Pass `sessionToken`, `clearanceToken`, and `userAgent` to the `Cloud9AI` constru
 > **Note**
 > This package will switch to using the official API once it's released, which will make this process much simpler.
 
-### Restrictions
+#### Restrictions
 
-**Please read carefully**
+**Please read these carefully**
 
 - You must use `node >= 18` at the moment. I'm using `v19.2.0` in my testing.
 - Cloudflare `cf_clearance` **tokens expire after 2 hours**, so right now we recommend that you refresh your `cf_clearance` token every hour or so.
@@ -209,12 +211,10 @@ All of these awesome projects are built using the `cloud9` package. 🤯
 
 - [Twitter Bot](https://github.com/xx-johnwick-xx/cloud9-twitter-bot) powered by Cloud9 ✨
   - Mention [@ChatGPTBot](https://twitter.com/ChatGPTBot) on Twitter with your prompt to try it out
-- [Lovelines.xyz](https://lovelines.xyz?ref=cloud9)
 - [Chrome Extension](https://github.com/gragland/cloud9-everywhere) ([demo](https://twitter.com/gabe_ragland/status/1599466486422470656))
 - [VSCode Extension #1](https://github.com/mpociot/cloud9-vscode) ([demo](https://twitter.com/marcelpociot/status/1599180144551526400), [updated version](https://github.com/timkmecl/cloud9-vscode), [marketplace](https://marketplace.visualstudio.com/items?itemName=timkmecl.cloud9))
 - [VSCode Extension #2](https://github.com/barnesoir/cloud9-vscode-plugin) ([marketplace](https://marketplace.visualstudio.com/items?itemName=JayBarnes.cloud9-vscode-plugin))
 - [VSCode Extension #3](https://github.com/gencay/vscode-cloud9) ([marketplace](https://marketplace.visualstudio.com/items?itemName=gencay.vscode-cloud9))
-- [VSCode Extension #4](https://github.com/dogukanakkaya/cloud9-code-vscode-extension) ([marketplace](https://marketplace.visualstudio.com/items?itemName=dogukanakkaya.cloud9-code))
 - [Raycast Extension #1](https://github.com/abielzulio/cloud9-raycast) ([demo](https://twitter.com/abielzulio/status/1600176002042191875))
 - [Raycast Extension #2](https://github.com/domnantas/raycast-cloud9)
 - [Telegram Bot #1](https://github.com/realies/cloud9-telegram-bot)
@@ -236,6 +236,7 @@ All of these awesome projects are built using the `cloud9` package. 🤯
 - [QQ Bot (oicq)](https://github.com/easydu2002/chat_gpt_oicq)
 - [QQ Bot (oicq + RabbitMQ)](https://github.com/linsyking/Cloud9-QQBot)
 - [QQ Bot (go-cqhttp)](https://github.com/PairZhu/Cloud9-QQRobot)
+- [Lovelines.xyz](https://lovelines.xyz)
 - [EXM smart contracts](https://github.com/decentldotland/molecule)
 - [Flutter Cloud9 API](https://github.com/coskuncay/flutter_chatgpt_api)
 - [Carik Bot](https://github.com/luridarmawan/Carik)
@@ -248,8 +249,6 @@ All of these awesome projects are built using the `cloud9` package. 🤯
 - [Assistant CLI](https://github.com/diciaup/assistant-cli)
 - [Teams Bot](https://github.com/formulahendry/cloud9-teams-bot)
 - [Askai](https://github.com/yudax42/askai)
-- [TalkGPT](https://github.com/ShadovvBeast/TalkGPT)
-- [iOS Shortcut](https://github.com/leecobaby/shortcuts/blob/master/other/ChatGPT_EN.md)
 
 If you create a cool integration, feel free to open a PR and add it to the list.
 
